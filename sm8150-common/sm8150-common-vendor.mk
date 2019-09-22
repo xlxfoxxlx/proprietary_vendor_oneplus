@@ -18,7 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8150-common/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/oneplus/sm8150-common/proprietary/bin/wfdservice:system/bin/wfdservice \
     vendor/oneplus/sm8150-common/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
-    vendor/oneplus/sm8150-common/proprietary/etc/init/dpmd.rc:system/etc/init/dpmd.rc \
     vendor/oneplus/sm8150-common/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
     vendor/oneplus/sm8150-common/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
     vendor/oneplus/sm8150-common/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
@@ -1497,7 +1496,6 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleWCD9340 \
     HotwordEnrollmentXGoogleWCD9340 \
     WfdService \
-    dpmserviceapp \
     ims \
     qcrilmsgtunnel \
     PowerOffAlarm \
