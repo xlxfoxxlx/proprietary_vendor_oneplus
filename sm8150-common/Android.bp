@@ -1,5 +1,5 @@
 /**
- * Copyright (C) 2019 The LineageOS Project
+ * Copyright (C) 2019 AOSiP
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -134,6 +134,16 @@ android_app_import {
 }
 
 android_app_import {
+	name: "OPSoundTuner",
+	owner: "oneplus",
+	apk: "proprietary/app/OPSoundTuner/OPSoundTuner.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
 	name: "SoterService",
 	owner: "oneplus",
 	apk: "proprietary/app/SoterService/SoterService.apk",
@@ -180,6 +190,17 @@ android_app_import {
 	name: "com.qualcomm.location",
 	owner: "oneplus",
 	apk: "proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "daxService",
+	owner: "oneplus",
+	apk: "proprietary/priv-app/daxService/daxService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
